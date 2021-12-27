@@ -1,12 +1,21 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import IconHc from '../Assets/icon-hc.png'
 
-const Header = () => {
+function Header () {
     return (
         <div>
-            <Navbar bg="light" expand="lg" className='navbar'>
+            <Navbar bg="light" expand="lg" className='navbar' fixed="top">
             <Container>
-                <Navbar.Brand href="/">Calendar</Navbar.Brand>
+            <Navbar.Brand href="/">
+                <img
+                    src={IconHc}
+                    width="40"
+                    height="30"
+                    className="d-inline-block align-top"
+                    alt="React Bootstrap logo"
+                />
+            </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                 <Nav
