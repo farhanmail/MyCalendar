@@ -33,8 +33,15 @@ body {
   cursor: pointer;
 }
 
-.left-event, text {
+.left-event text {
   font-size: 20px;
+  font-family: sans-serif;
+}
+
+.left-event text strong {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #d47602;
 }
 
 .left-event, p {
@@ -42,12 +49,19 @@ body {
   font-family: 'Gill Sans';
 }
 
-#text-location {
+#text-location strong{
   font-size: 25px;
+  font-family: sans-serif;
+}
+
+#text-event strong{
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #d47602;
 }
 
 #typing {
-  color: #1636f0;
+  color: #0e2ddd;
   width: 0ch;
   padding-left: 12%;
   font-family: sans-serif;
@@ -98,11 +112,29 @@ body {
   font-size: 12px !important;
 }
 
-.fc-daygrid-day-frame {
+.fc-day-past {
   background: url(./Assets/bg-1.jpg) no-repeat center;
 }
 
-.fc-daygrid-day-frame:hover {
+.fc-day-future {
+  background: url(./Assets/bg-1.jpg) no-repeat center;
+}
+
+.fc-day-today{
+  background: url(./Assets/bg-1.jpg);
+}
+
+.fc-day-today:hover {
+  box-shadow: 2px 2px 12px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+}
+
+.fc-day-past:hover {
+  box-shadow: 2px 2px 12px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+}
+
+.fc-day-future:hover {
   box-shadow: 2px 2px 12px 0px rgba(0,0,0,.2);
   cursor: pointer;
 }
