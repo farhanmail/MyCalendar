@@ -125,8 +125,8 @@ function Calendar () {
                         </div>
                         <div className='left-event' style={{marginTop:'10px'}}>
                             <div>
-                                <div id='text-event'>
-                                    <strong>ALL EVENT :</strong>
+                                <div id='text-location'>
+                                    <strong><div>ALL EVENT :</div></strong>
                                     <h5 
                                         onClick={() => setOpen(!open)}
                                         id='underline'

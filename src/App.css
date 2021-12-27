@@ -15,7 +15,7 @@ body {
 }
 
 .left-event {
-  background-color: rgb(243, 241, 241);
+  background-color: #fcfcfce0;
   margin-left: 10px;
   padding: 20px 8px;
   padding-top: 12px;
@@ -33,14 +33,12 @@ body {
   cursor: pointer;
 }
 
-.left-event text {
+.left-event, text {
   font-size: 20px;
   font-family: sans-serif;
 }
 
 .left-event text strong {
-  font-size: 20px;
-  font-family: sans-serif;
   color: #d47602;
 }
 
@@ -49,19 +47,17 @@ body {
   font-family: 'Gill Sans';
 }
 
-#text-location strong{
+#text-location {
   font-size: 25px;
   font-family: sans-serif;
 }
 
-#text-event strong{
-  font-size: 25px;
-  font-family: sans-serif;
+#text-location strong div{
   color: #d47602;
 }
 
 #typing {
-  color: #0e2ddd;
+  color: #1636f0;
   width: 0ch;
   padding-left: 12%;
   font-family: sans-serif;
@@ -174,6 +170,10 @@ body {
 }
 
 @media (max-width: 1150px) {
+  #underline {
+    font-size: 15px;
+  }
+
   .left-event, text {
     font-size: 19px;
   }
@@ -210,6 +210,10 @@ body {
 }
 
 @media (max-width: 1000px) {
+  #underline {
+    font-size: 12px;
+  }
+
   .left-event, text {
     font-size: 16px;
   }
@@ -254,6 +258,10 @@ body {
 }
 
 @media (max-width: 900px) {
+  #underline {
+    font-size: 10px;
+  }
+
   .left-event, text {
     font-size: 14px;
   }
@@ -536,6 +544,10 @@ body {
 }
 
 @media (max-width: 600px) {
+  #underline {
+    font-size: 15px;
+  }
+
   .calendar {
   padding-right: calc(var(--bs-gutter-x) * .0);
   margin-left: 10px;
